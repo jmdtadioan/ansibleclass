@@ -1,6 +1,6 @@
 ---
 - hosts: linuxservers
-  become: true
+  become: yes
 
   tasks:
     - name: Create dir /mnt/resource/
