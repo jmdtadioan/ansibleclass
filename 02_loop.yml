@@ -29,4 +29,3 @@
       loop: "{{ download_loop.results }}"
       register: async_loop_jobs
       until: async_loop_jobs.finished
-      
